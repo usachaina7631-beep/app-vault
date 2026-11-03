@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>App Vault — Original Apps, Daily Updates</title>
+<meta name="description" content="Original apps aur games ek jagah — Candy Dhamaka, Magadh University, AI Tools Directory. 100% Original, No Mod, No Crack, Safe.">
+<meta name="theme-color" content="#0b1220">
+<link rel="manifest" href="manifest.json">
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif;background:#0b1220;color:#eef2ff;max-width:520px;margin:0 auto;padding-bottom:90px}
+header{background:linear-gradient(135deg,#0f766e,#065f46);padding:20px 16px 16px;border-radius:0 0 22px 22px;position:sticky;top:0;z-index:5}
+header h1{font-size:24px;line-height:1.1}
+header p{opacity:.92;font-size:13px;margin-top:5px}
+.badge{display:inline-block;background:#facc15;color:#111827;font-weight:800;font-size:11px;padding:4px 8px;border-radius:999px;margin-top:10px}
+.search{margin:14px 16px 0}
+.search input{width:100%;padding:13px 14px;border-radius:14px;border:1px solid #26314d;background:#111a2e;color:#fff;font-size:15px;outline:none}
+.chips{display:flex;gap:8px;overflow:auto;padding:12px 16px 4px;scrollbar-width:none}
+.chip{white-space:nowrap;border:1px solid #2b3a5f;background:#131e35;color:#cbd5e1;padding:8px 13px;border-radius:999px;font-weight:700;font-size:13px;cursor:pointer}
+.chip.active{background:#14b8a6;color:#04201b;border-color:#14b8a6}
+.banner{margin:12px 16px;background:#172554;border:1px solid #1e40af;padding:13px 14px;border-radius:16px;font-size:13px;line-height:1.5}
+.banner b{color:#93c5fd}
+.section{padding:8px 16px 0;font-size:17px;font-weight:800}
+.card{display:flex;gap:12px;background:#111a2e;border:1px solid #233252;margin:12px 16px;padding:14px;border-radius:18px;cursor:pointer}
+.icon{width:62px;height:62px;border-radius:16px;display:flex;align-items:center;justify-content:center;font-size:32px;flex:0 0 62px}
+.c1{background:#7c2d12}.c2{background:#1e3a8a}.c3{background:#581c87}.c4{background:#831843}.c5{background:#713f12}
+.card h3{font-size:16px}.meta{font-size:12px;color:#94a3b8;margin-top:3px;line-height:1.5}
+.feat{font-size:12px;color:#5eead4;margin-top:4px;font-weight:700}
+.btn{margin-left:auto;align-self:center;background:#22c55e;color:#052e12;font-weight:900;border:none;padding:10px 12px;border-radius:12px;font-size:13px;white-space:nowrap}
+.detail{display:none;margin:-4px 16px 12px;background:#0f172a;border:1px solid #2b3a5f;border-top:none;padding:14px;border-radius:0 0 18px 18px;font-size:13px;line-height:1.6;color:#cbd5e1}
+.detail.open{display:block}
+.detail a{display:inline-block;margin:8px 6px 0 0;background:#14b8a6;color:#04201b;text-decoration:none;font-weight:900;padding:10px 12px;border-radius:11px}
+.detail a.alt{background:#334155;color:#fff}
+footer{padding:22px 16px;text-align:center;color:#94a3b8;font-size:12px;line-height:1.7}
+.bottom{position:fixed;left:0;right:0;bottom:0;max-width:520px;margin:auto;background:#0f172a;border-top:1px solid #233252;display:flex;justify-content:space-around;padding:10px 4px calc(10px + env(safe-area-inset-bottom))}
+.bottom a{color:#e2e8f0;text-decoration:none;font-size:12px;font-weight:800;text-align:center}
+.hidden{display:none}
+</style>
+</head>
+<body>
+<header>
+<h1>🗄️ App Vault</h1>
+<p>Original Apps &amp; Games • Daily Updates</p>
+<span class="badge">100% ORIGINAL • NO MOD • NO CRACK • SAFE</span>
+</header>
+
+<div class="search"><input id="q" type="search" placeholder="App search karo — candy, magadh, ai tools..."></div>
+<div class="chips" id="chips">
+<button class="chip active" data-cat="all">All</button>
+<button class="chip" data-cat="game">Games</button>
+<button class="chip" data-cat="education">Education</button>
+<button class="chip" data-cat="ai">AI Tools</button>
+<button class="chip" data-cat="video">Video</button>
+</div>
+
+<div class="banner"><b>🔥 Daily Update — 3 Nov 2026:</b> Candy Dhamaka v18 LIVE hai (300 Levels, 30 Worlds) aur CrazyGames par review me hai. Magadh Student Portal 2.0 aur AI Tools Directory (56 Tools) bhi live hain.</div>
+
+<div class="section">Featured Apps</div>
+<div id="list">
+
+<article class="app" data-cat="game" data-name="candy dhamaka game match 3 puzzle">
+<div class="card" onclick="toggle('d1')"><div class="icon c1">🍬</div><div><h3>Candy Dhamaka</h3><div class="meta">Game • Puzzle • v18 • Web Game<br>⭐ 300 Levels • 30 Worlds • Lives / Stars / Map</div><div class="feat">✦ Original Game — Humara Apna</div></div><button class="btn">PLAY</button></div>
+<div class="detail" id="d1">Match-3 candy puzzle game, 100% original art aur code. Koi download nahi, browser me turant khelo. Offline type ka maza, levels ke saath stars aur map.<br>
+<a href="https://usachaina7631-beep.github.io/candy-match-game/" target="_blank" rel="noopener">▶ Abhi Khelo</a>
+<a class="alt" href="https://rajankumar-games.itch.io/candy-dhamaka" target="_blank" rel="noopener">itch.io Page</a></div>
+</article>
+
+<article class="app" data-cat="education" data-name="magadh university student portal result sgpa bodh gaya">
+<div class="card" onclick="toggle('d2')"><div class="icon c2">🎓</div><div><h3>Magadh University</h3><div class="meta">Education • Student Portal 2.0<br>⭐ Result Finder • SGPA Calculator • Courses</div><div class="feat">✦ Students ke liye Official Help</div></div><button class="btn">OPEN</button></div>
+<div class="detail" id="d2">Bodh Gaya ke students ke liye — Result Finder (session + semester ke hisab se sahi steps), SGPA Calculator apne marksheet ke numbers se, courses, colleges aur notices ki jankari.<br>
+<a href="https://magadhuniversityinfo.in" target="_blank" rel="noopener">🌐 Website Kholo</a></div>
+</article>
+
+<article class="app" data-cat="ai" data-name="ai tools directory chatgpt fliki simplified free tools">
+<div class="card" onclick="toggle('d3')"><div class="icon c3">🤖</div><div><h3>AI Tools Directory</h3><div class="meta">AI Tools • 56 Tools • Free / Paid<br>⭐ Video, Image, Writing, Marketing</div><div class="feat">✦ Roz kaam ke AI Tools ek jagah</div></div><button class="btn">OPEN</button></div>
+<div class="detail" id="d3">56 AI tools ki saaf directory — search aur category ke saath. Video banane, photo, likhne aur marketing ke best free tools, sachhi jankari ke saath (jo free hai wahi free likha hai).<br>
+<a href="https://usachaina7631-beep.github.io/ai-tools-directory/" target="_blank" rel="noopener">🤖 Tools Dekho</a></div>
+</article>
+
+<article class="app" data-cat="video" data-name="ai future hindi instagram reels future tech">
+<div class="card" onclick="toggle('d4')"><div class="icon c4">🚀</div><div><h3>AI Future Hindi</h3><div class="meta">Video • Instagram Series • 60 Days<br>⭐ 2050 ka Bharat • Robots • Flying Cars</div><div class="feat">✦ Daily Future-Tech Reels</div></div><button class="btn">WATCH</button></div>
+<div class="detail" id="d4">Faceless future-tech Reels ki daily series — 15-20 second me aane wale kal ki jhalak, AI Kalpana label ke saath saaf taur par.<br>
+<a href="https://www.instagram.com/aifuture.hindi" target="_blank" rel="noopener">📸 Instagram Par Dekho</a></div>
+</article>
+
+<article class="app" data-cat="video" data-name="manhwa recap hindi hirrak yt youtube system">
+<div class="card" onclick="toggle('d5')"><div class="icon c5">🔥</div><div><h3>Manhwa Recap Hindi</h3><div class="meta">Video • YouTube Series • Season 1<br>⭐ Ep1 Live • System Unlock Story</div><div class="feat">✦ Original Hindi Recap Series</div></div><button class="btn">WATCH</button></div>
+<div class="detail" id="d5">"Sabne Marne Chhod Diya… Maine SYSTEM Unlock Kar Liya!" — original Hindi manhwa recap series ka pehla episode, 12:29, YouTube par live.<br>
+<a href="https://www.youtube.com/watch?v=C0yCjpeXfiY" target="_blank" rel="noopener">▶ Ep1 Dekho</a></div>
+</article>
+
+</div>
+<footer>
+<b style="color:#e2e8f0">Kyoon bharosa karo?</b><br>
+Yahan har app humara original hai. Kisi dusre app ka crack/mod nahi hai, isliye na virus ka dar, na account ban ka, na strike ka.<br><br>
+App Vault v1.0 • 3 Nov 2026<br>
+Phone par app jaisa lagane ke liye: Chrome Menu (⋮) → <b>Add to Home Screen</b>
+</footer>
+
+<nav class="bottom">
+<a href="#">🏠<br>Home</a>
+<a href="https://usachaina7631-beep.github.io/candy-match-game/" target="_blank" rel="noopener">🍬<br>Game</a>
+<a href="https://usachaina7631-beep.github.io/ai-tools-directory/" target="_blank" rel="noopener">🤖<br>AI Tools</a>
+<a href="https://www.youtube.com/@kumarrajan-w7k" target="_blank" rel="noopener">▶️<br>YouTube</a>
+</nav>
+
+<script>
+function toggle(id){document.getElementById(id).classList.toggle('open')}
+const q=document.getElementById('q');let cat='all';
+function apply(){document.querySelectorAll('.app').forEach(a=>{const okCat=cat==='all'||a.dataset.cat===cat;const okQ=a.dataset.name.includes(q.value.trim().toLowerCase())||q.value.trim()==='';a.classList.toggle('hidden',!(okCat&&okQ))})}
+q.addEventListener('input',apply);
+document.getElementById('chips').addEventListener('click',e=>{if(!e.target.classList.contains('chip'))return;document.querySelectorAll('.chip').forEach(c=>c.classList.remove('active'));e.target.classList.add('active');cat=e.target.dataset.cat;apply()});
+</script>
+</body>
+</html>
